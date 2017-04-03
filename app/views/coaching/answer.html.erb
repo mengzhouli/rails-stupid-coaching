@@ -1,4 +1,13 @@
 <h1>Coaching#answer</h1>
 <p>Find me in app/views/coaching/answer.html.erb</p>
 
+<ul>
+  <li>
+    <%= @query %>
+  </li>
+  <li>
+    <em><%= @answer %></em>
+  </li>
+</ul>
+
 <%= link_to "Ask another question", ask_path %>
